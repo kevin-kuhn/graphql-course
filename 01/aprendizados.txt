@@ -1,0 +1,7 @@
+const server = new ApolloServer({
+  typeDefs: gql`
+    type Query {         -> meu root type, sempre vou definir query aqui dentro, e o que vem dentro,
+      hello: String        é o que vou definir o que vai vir dentro é p que o pessoal pode acessar
+    }
+  `,
+})
