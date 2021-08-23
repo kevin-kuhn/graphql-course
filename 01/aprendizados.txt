@@ -5,3 +5,12 @@ const server = new ApolloServer({
     }
   `,
 })
+
+- cada chave tem um resolver especifico
+
+
+types:
+  ID -> é similar a uma string
+
+
+! -> na query, significa que é non nullable
